@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,9 @@
     <link rel="stylesheet" href="/public/css/style.css">
     <script type="text/javascript" src="/src/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $('a.close').click(function(eve){
-                
+        $(document).ready(function () {
+            $('a.close').click(function (eve) {
+
                 eve.preventDefault();
                 $(this).parents('div.popups').fadeOut('slow');
             });
@@ -19,61 +20,64 @@
 
 
     <style type="text/css">
-        body{
-            width:100%;
-            height:100%;
-            margin:0;
-            padding:0;
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
         }
-        div.popup{
-            position:fixed;
-            top:0;
-            bottom:0;
-            left:0;
-            right:0;
-            width:100%;
-            height:100%;
-            background: rgba(0,0,0,.8);
+
+        div.popup {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .8);
         }
-        
-        div#box{
-            margin:5% auto;
-            background:#fff;
-            width:50%;
-            height:50%;
-            -webkit-box-shadow:0 0 15px #000;
-            -moz-box-shadow:0 0 15px #000;
-            box-shadow:0 0 15px #000;
+
+        div#box {
+            margin: 5% auto;
+            background: #fff;
+            width: 50%;
+            height: 50%;
+            -webkit-box-shadow: 0 0 15px #000;
+            -moz-box-shadow: 0 0 15px #000;
+            box-shadow: 0 0 15px #000;
         }
-        
-        a.close{
-            text-decoration:none;
-            color:#000;
-            margin:10px 15px 0 0;
-            float:right;
-            font-family:tahoma;
-            font-size:20px;
+
+        a.close {
+            text-decoration: none;
+            color: #000;
+            margin: 10px 15px 0 0;
+            float: right;
+            font-family: tahoma;
+            font-size: 20px;
         }
     </style>
 </head>
+
 <body>
     <!-- bagian popup -->
 
     <div class="bg-greens sm:max-w-[480px] mx-auto relative">
-	<div class="popups fixed bottom-0 left-0 w-full h-full">
-		<div class="bg-blue-700 w-full h-full">
-            sdfdf
-            
-                <a class="close" href="#">X</a>
-          
-        </div>	
-	</div>
+        <div class="popups fixed bottom-0 left-0 w-full h-full">
+            <div class="bg-blue-700 w-full h-full">
+                sdfdf
 
-	<!-- akhir dari popup -->
-	
-	<h1>Judul Artikel</h1>
-	<p>ini artikelnya</p>
-</div>
-    
+                <a class="close" href="#">X</a>
+
+            </div>
+        </div>
+
+        <!-- akhir dari popup -->
+
+        <h1>Judul Artikel</h1>
+        <p>ini artikelnya</p>
+    </div>
+
 </body>
+
 </html>
