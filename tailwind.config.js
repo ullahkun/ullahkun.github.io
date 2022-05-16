@@ -23,6 +23,7 @@ module.exports = {
         'metal': '#565584',
         'green':'#0C5721',
         'softgreen' : '#ADD0B7',
+        'softgrey':'#33434a'
       },
       fontFamily: {
         'script': 'Playball',
