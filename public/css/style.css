@@ -706,6 +706,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 5rem;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .flex-none {
   flex: none;
 }
@@ -1123,6 +1127,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 640px) {
   .sm\:absolute {
     position: absolute;
+  }
+
+  .sm\:w-24 {
+    width: 6rem;
   }
 
   .sm\:max-w-\[480px\] {
