@@ -610,6 +610,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1rem;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -656,6 +660,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-4 {
   width: 1rem;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .grid-cols-4 {
