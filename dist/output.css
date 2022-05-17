@@ -1185,4 +1185,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:text-2xl {
     font-size: 1.5rem;
   }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+  }
 }
