@@ -854,6 +854,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(51 67 74 / var(--tw-bg-opacity));
 }
 
+.bg-softgrey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 67 74 / var(--tw-bg-opacity));
+}
+
+.bg-amber-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 211 77 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -1004,6 +1019,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-thin {
   font-weight: 100;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .text-green {
