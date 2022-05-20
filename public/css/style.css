@@ -480,6 +480,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -717,6 +724,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-3 {
@@ -977,6 +988,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-3xl {
   font-size: 1.875rem;
 }
@@ -999,6 +1014,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-xxs {
   font-size: .50rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
 }
 
 .font-bold {
