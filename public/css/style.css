@@ -586,6 +586,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -882,6 +886,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/src\/img\/bg\.png\'\)\] {
+  background-image: url('/src/img/bg.png');
+}
+
+.bg-\[url\(\'\/src\/img\/bg-2\.png\'\)\] {
+  background-image: url('/src/img/bg-2.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .fill-current {
